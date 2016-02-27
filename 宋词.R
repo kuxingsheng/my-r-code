@@ -29,4 +29,7 @@ topword <- word.frame[1:200,]
 rword <- sample(x=topword$word,size=12,
                 replace=F,prob=topword$freq/200)
 
+
+
+
 paste(rword)
